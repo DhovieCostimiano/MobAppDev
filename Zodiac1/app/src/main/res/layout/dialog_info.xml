@@ -12,13 +12,15 @@
         android:textSize="20sp"
         android:textStyle="bold"
         android:layout_gravity="center_horizontal"
-        android:layout_marginBottom="16dp"/>
+        android:layout_marginBottom="16dp"
+        android:textColor="#FFFFFF"/>
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="This app helps you determine your zodiac sign based on your birth date."
-        android:layout_marginBottom="8dp"/>
+        android:layout_marginBottom="8dp"
+        android:textColor="#FFFFFF"/>
 
     <TextView
         android:layout_width="wrap_content"
@@ -26,12 +28,14 @@
         android:text="How to use:"
         android:textStyle="bold"
         android:layout_marginTop="16dp"
-        android:layout_marginBottom="8dp"/>
+        android:layout_marginBottom="8dp"
+        android:textColor="#FFFFFF"/>
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="1. Enter your birth date in MM/DD format\n2. Click 'Calculate Zodiac Sign'\n3. View your zodiac sign result"/>
+        android:text="1. Enter your birth date in MM/DD format\n2. Click 'Calculate Zodiac Sign'\n3. View your zodiac sign result"
+        android:textColor="#FFFFFF"/>
 
     <TextView
         android:layout_width="wrap_content"
@@ -39,12 +43,14 @@
         android:text="Zodiac Date Ranges:"
         android:textStyle="bold"
         android:layout_marginTop="16dp"
-        android:layout_marginBottom="8dp"/>
+        android:layout_marginBottom="8dp"
+        android:textColor="#FFFFFF"/>
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Aries: Mar 21 - Apr 19\nTaurus: Apr 20 - May 20\nGemini: May 21 - Jun 20\nCancer: Jun 21 - Jul 22\nLeo: Jul 23 - Aug 22\nVirgo: Aug 23 - Sep 22\nLibra: Sep 23 - Oct 22\nScorpio: Oct 23 - Nov 21\nSagittarius: Nov 22 - Dec 21\nCapricorn: Dec 22 - Jan 19\nAquarius: Jan 20 - Feb 18\nPisces: Feb 19 - Mar 20"/>
+        android:text="Aries: Mar 21 - Apr 19\nTaurus: Apr 20 - May 20\nGemini: May 21 - Jun 20\nCancer: Jun 21 - Jul 22\nLeo: Jul 23 - Aug 22\nVirgo: Aug 23 - Sep 22\nLibra: Sep 23 - Oct 22\nScorpio: Oct 23 - Nov 21\nSagittarius: Nov 22 - Dec 21\nCapricorn: Dec 22 - Jan 19\nAquarius: Jan 20 - Feb 18\nPisces: Feb 19 - Mar 20"
+        android:textColor="#FFFFFF"/>
 
     <Button
         android:id="@+id/closeButton"
