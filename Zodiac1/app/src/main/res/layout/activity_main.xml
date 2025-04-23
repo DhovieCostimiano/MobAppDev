@@ -1,51 +1,62 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:padding="16dp"
     android:gravity="center"
-    android:background="#F5F5DC"
     tools:context=".MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Zodiac Sign Calculator"
-        android:textSize="24sp"
-        android:textStyle="bold"
-        android:layout_marginBottom="32dp"/>
-
+    <!-- Year Input -->
     <EditText
-        android:id="@+id/birthDateEditText"
+        android:id="@+id/yearInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:hint="Enter birth year (YYYY)"
+        android:inputType="number"
+        android:minHeight="48dp" />
+
+    <!-- Month Spinner -->
+    <Spinner
+        android:id="@+id/monthSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:minHeight="48dp" />
+
+    <!-- Day Input -->
+    <EditText
+        android:id="@+id/dayInput"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="16dp"
-        android:hint="Enter your birth date (MM/DD)"
-        android:inputType="date"
+        android:hint="Enter day (1-31)"
+        android:inputType="number"
         android:minHeight="48dp" />
 
+    <!-- Calculate Button -->
     <Button
         android:id="@+id/calculateButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Calculate Zodiac Sign"
-        android:layout_marginBottom="32dp"/>
+        android:text="Calculate"
+        android:layout_marginBottom="24dp"/>
 
+    <!-- Zodiac Result -->
     <TextView
-        android:id="@+id/resultTextView"
+        android:id="@+id/zodiacResult"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="18sp"
-        android:textStyle="italic"/>
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="8dp"/>
 
-    <Button
-        android:id="@+id/infoButton"
+    <!-- Age Result -->
+    <TextView
+        android:id="@+id/ageResult"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="App Info"
-        android:layout_marginTop="32dp"/>
-
+        android:textSize="16sp"/>
 </LinearLayout>
